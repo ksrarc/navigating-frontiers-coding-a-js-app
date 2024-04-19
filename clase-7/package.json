@@ -1,0 +1,26 @@
+{
+  "name": "clase-7",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "sync_success": "node -r ./async.code.js -e 'syncExample(2000)'",
+    "sync_error": "node -r ./async.code.js -e 'syncExample([])'",
+    "callback_success": "node -r ./async.code.js -e 'callbackExample(2000)'",
+    "callback_error": "node -r ./async.code.js -e 'callbackExample([])'",
+    "promise_success": "node -r ./async.code.js -e 'promiseExample(2000)'",
+    "promise_error": "node -r ./async.code.js -e 'promiseExample([])'",
+    "await_success": "node -r ./async.code.js -e 'awaitExample(2000)'",
+    "await_error": "node -r ./async.code.js -e 'awaitExample([])'",
+
+    "normal_success": "node -r ./exceptions.js -e 'normal(20)'",
+    "normal_error": "node -r ./exceptions.js -e 'normal(1)'",
+
+    "exception1_success": "node -r ./exceptions.js -e 'exceptions1(20)'",
+    "exception1_error": "node -r ./exceptions.js -e 'exceptions1(1)'",
+
+    "exception2_success": "node -r ./exceptions.js -e 'exceptions2(20)'",
+    "exception2_error": "node -r ./exceptions.js -e 'exceptions2(1)'"
+  },
+  "author": "",
+  "license": "ISC"
+}
